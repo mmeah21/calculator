@@ -1,0 +1,39 @@
+body {
+    
+}
+
+#pad {
+    display: flex;
+    flex-flow: row wrap;
+    width: 15rem;
+    height: 15rem;
+    
+}
+.digits {
+    display: flex;
+    width: 75%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.actions {
+    display: flex;
+    width: 25%;
+    flex-flow: column;
+
+    justify-content: space-between;
+    
+}
+#clear, #display {
+    flex-basis: 100%;
+}
+
+.digits button {
+    flex-basis: 31%;
+    justify-content: space-evenly;
+}
+.actions button{
+    flex-basis: 24%;
+    height: 98%;
+    justify-content: space-between;
+}
