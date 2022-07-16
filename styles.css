@@ -1,39 +1,79 @@
-body {
-    
-}
 
 #pad {
     display: flex;
     flex-flow: row wrap;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 25rem;
+    column-gap: 3%;
+    border-style: solid;
+    border-radius: 8% 8%;
+    padding: 2% 2% 1% 2%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 3px 4px 4px black;
+    background-color: black;
     
 }
 .digits {
     display: flex;
-    width: 75%;
+    width: 72%;
     flex-flow: row wrap;
     justify-content: space-between;
+    column-gap: 3%;
+    row-gap: 3%;
+    
 
 }
 .actions {
     display: flex;
     width: 25%;
     flex-flow: column;
-
+    row-gap: 3%;
     justify-content: space-between;
     
 }
 #clear, #display {
     flex-basis: 100%;
+    text-align: center;
+    
 }
 
 .digits button {
     flex-basis: 31%;
     justify-content: space-evenly;
+    border-radius: 5%;
+    background-color: #313131;
+    border-color: #313131;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
 .actions button{
     flex-basis: 24%;
     height: 98%;
     justify-content: space-between;
+    border-radius: 5%;
+    background-color: #F69906;
+    border-color: #F69906;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
+
+#display {
+    border-style: solid;
+    border-radius: 5% 5%;
+    margin: 5% 1%;
+    justify-content: right;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-color: gray;
+    box-shadow: 2px 2px 1px white;
+    
+}
+
+#output {
+    overflow-wrap: break-word;
+}
+
