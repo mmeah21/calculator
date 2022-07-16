@@ -13,5 +13,11 @@ function multiply(first,second){
 }
 
 function divide(first,second){
-    
+
+}
+
+//operate function take two numbers and an operator
+
+function operate(operator,first,second){
+    return operator(first,second);
 }
