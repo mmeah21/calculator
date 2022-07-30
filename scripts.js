@@ -13,6 +13,11 @@ function multiply(first,second){
 }
 
 function divide(first,second){
+    if(second == 0){
+      
+
+        return "By Zero? Try again.";
+    }
     return first/second;
 }
 
@@ -169,6 +174,13 @@ const equalSign = document.querySelector("#equals");
 
 function display(){
     output.innerHTML = input;
+    if (input == "By Zero? Try again."){
+            input = [];
+            storedValue = 0;
+            firstValue = 0;
+            storedOperator ="";
+    }
+    
 }
 
 
